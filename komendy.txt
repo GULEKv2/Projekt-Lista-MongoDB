@@ -1,0 +1,10 @@
+cd "C:\Users\cobra\OneDrive\Desktop\Projekt BD Łukasz Żurek"
+
+username: cobraford
+hasło: k5PuMHk2AZ3aN1Op
+
+mongodb+srv://cobraford:k5PuMHk2AZ3aN1Op@projektbd.5hvr1.mongodb.net/?retryWrites=true&w=majority&appName=ProjektBD
+
+node server.js
+
+http://localhost:3000/

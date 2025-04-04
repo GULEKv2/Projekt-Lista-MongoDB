@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista To-Do</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista Zadań</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Wpisz zadanie" required>
+            <input type="text" id="tag-input" placeholder="Wpisz tagi (oddzielone przecinkami)">
+            <button type="submit">Dodaj zadanie</button>
+        </form>
+        <h2>Filtruj zadania po tagu</h2>
+        <input type="text" id="filter-input" placeholder="Wpisz tag">
+        <button id="filter-button">Filtruj</button>
+        <button id="clear-filter-button">Wyczyść filtr</button>
+        <ul id="task-list"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
